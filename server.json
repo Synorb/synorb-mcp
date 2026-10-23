@@ -1,0 +1,26 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.synorb/mcp",
+  "title": "Synorb",
+  "description": "Cited context for AI agents: company news, SEC filings, central bank publications and research.",
+  "version": "1.0.0",
+  "websiteUrl": "https://synorb.com/docs/mcp",
+  "repository": {
+    "url": "https://github.com/Synorb/synorb-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.synorb.com/mcp",
+      "headers": [
+        {
+          "name": "Authorization",
+          "description": "'Bearer <Synorb Key>'. Get one at https://synorb.com/connect/start. Discovery tools work without it.",
+          "isRequired": false,
+          "isSecret": true
+        }
+      ]
+    }
+  ]
+}
