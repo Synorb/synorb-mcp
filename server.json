@@ -1,9 +1,9 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "com.synorb/mcp",
-  "title": "Synorb: News, SEC Filings & Central Bank Research",
+  "title": "Synorb: News & Context for AI Agents",
   "description": "Cited context for AI agents: company news, SEC filings, central bank publications and research.",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "websiteUrl": "https://synorb.com/docs/mcp",
   "repository": {
     "url": "https://github.com/Synorb/synorb-mcp",
