@@ -2,9 +2,11 @@
 
 ## Reporting a vulnerability
 
-Please report a suspected vulnerability in the Synorb MCP server listing and the hosted MCP endpoint at https://mcp.synorb.com/mcp by email to **support@synorb.com**.
+Please report a suspected vulnerability in the Synorb MCP server listing and the hosted MCP endpoint at https://mcp.synorb.com/mcp by email to **team@synorb.com**.
 
 Please do not open a public issue or pull request for a security problem. Include what you found, how to reproduce it, and which version or endpoint it affects.
+
+Our published security contact is also at <https://synorb.com/.well-known/security.txt>.
 
 ## Mailing address
 
